@@ -1,0 +1,20 @@
+
+{
+"TITULO" :"Formulario para encuesta 1",
+"NOMBRE" :"formulario_encuesta_1",
+"TEMA" :"DARK",
+"USUARIO_CREACION" :"user",
+"FECHA_CREACION" :"2021-04-01",
+	"ESTRUCTURA" :(
+		{
+		"ID" :"$_text_cliente",
+		"FORMULARIO" :"$form1",
+		"TEXTO_VISIBLE" :"Nombre de cliente ",
+		"INDICE" :"1",
+		"CLASE" :"CAMPO_TEXTO",
+		"NOMBRE_CAMPO" :"Cliente",
+		"ALINEACION" :"CENTRO",
+		"REQUERIDO" :"SI"
+		}
+	)
+}

@@ -1,0 +1,56 @@
+{
+"TITULO" :"Formulario Modificado para encuesta 1",
+"NOMBRE" :"formulario_encuesta_1_v2",
+"TEMA" :"WHITE",
+"USUARIO_CREACION" :"juanito619lopez",
+"FECHA_CREACION" :"2021-03-29",
+	"ESTRUCTURA" :(
+		{
+		"ID" :"$_grupo_paises",
+		"FORMULARIO" :"$form1",
+		"TEXTO_VISIBLE" :"Pais de Origen ",
+		"INDICE" :"1",
+		"CLASE" :"COMBO",
+		"OPCIONES" :"Guatemala|El Salvador|Honduras|OTRO",
+		"NOMBRE_CAMPO" :"Pais",
+		"ALINEACION" :"DERECHA",
+		"REQUERIDO" :"SI"
+		}
+,
+
+		{
+		"ID" :"$_text_cliente",
+		"FORMULARIO" :"$form1",
+		"TEXTO_VISIBLE" :"Nombre de cliente ",
+		"INDICE" :"2",
+		"CLASE" :"CAMPO_TEXTO",
+		"NOMBRE_CAMPO" :"Cliente",
+		"ALINEACION" :"DERECHA",
+		"REQUERIDO" :"SI"
+		}
+,
+
+		{
+		"ID" :"$_text_fichero2",
+		"FORMULARIO" :"$form1",
+		"TEXTO_VISIBLE" :"Nombre de cliente ",
+		"INDICE" :"3",
+		"CLASE" :"FICHERO",
+		"NOMBRE_CAMPO" :"Cliente",
+		"ALINEACION" :"CENTRO",
+		"REQUERIDO" :"SI"
+		}
+,
+
+		{
+		"ID" :"$_text_fichero",
+		"FORMULARIO" :"$form1",
+		"TEXTO_VISIBLE" :"Nombre de cliente ",
+		"INDICE" :"4",
+		"CLASE" :"FICHERO",
+		"NOMBRE_CAMPO" :"Cliente",
+		"ALINEACION" :"CENTRO",
+		"REQUERIDO" :"SI"
+		}
+	)
+}
